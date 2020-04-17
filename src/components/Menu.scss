@@ -1,0 +1,23 @@
+.menu {
+  text-align: center;
+
+  &__content {
+    width: 960px;
+
+    display: inline-flex;
+    justify-content: space-around;
+  }
+
+  &__item {
+    padding: 10px;
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu {
+    &__content {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.error-message {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+
+  padding: 0 0 10px;
+  border-radius: 10px;
+
+  color: #eee;
+
+  background-color: #fee;
+
+  &__text {
+    padding: 20px 40px 30px;
+    margin: 0 0 10px 0;
+
+    font-family: inherit;
+    font-size: inherit;
+
+    background-color: #d77;
+  }
+
+  &__close-button {
+    position: relative;
+
+    align-self: center;
+
+    padding: 0;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+
+    font-weight: bold;
+    line-height: 2.5;
+    color: #eee;
+
+    background-color: #b44;
+
+    cursor: pointer;
+  }
+}

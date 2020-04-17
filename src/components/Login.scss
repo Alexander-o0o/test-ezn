@@ -1,0 +1,25 @@
+.login {
+  text-align: center;
+  padding: 30px;
+  height: 100%;
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  &__input {
+    margin-bottom: 10px;
+
+    &-label {
+      display: inline-block;
+      text-align: left;
+      width: 100px;
+      margin-right: 20px;
+    }
+
+    &-textbox {
+      width: 200px;
+    }
+  }
+}
