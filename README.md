@@ -1,4 +1,4 @@
-## Тестовое задание для Eyezon
+## Тестовое задание
 
 Выполненос с использованием React, Redux, Saga, React Router, стилизация SCSS.  
 Demo доступно [здесь](https://test-ezn.herokuapp.com/).
